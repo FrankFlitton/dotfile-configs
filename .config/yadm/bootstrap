@@ -8,6 +8,9 @@ if [ "$system_type" = "Darwin" ]; then
   sudo xcodebuild -license # agree with license
   xcode-select --install # Install command line tool
 
+  # install oh my zsh
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
   # install homebrew if it's missing
   if ! command -v brew >/dev/null 2>&1; then
     echo "Installing homebrew"
