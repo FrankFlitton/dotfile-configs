@@ -31,5 +31,14 @@ if [ "$system_type" = "Darwin" ]; then
   pyenv install 3.8.5
   pyenv global 3.8.5
 
+  # Install Fira Code Font
+  brew tap homebrew/cask-fonts
+  brew cask install font-fira-code
+
+  # Last
+  # Install flutter and run flutter doctor to install deps
+  brew cask install flutter
+  flutter doctor
+
 fi
 
