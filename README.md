@@ -1,15 +1,22 @@
 # dotfile-configs
->A repo for managing my config files across my workstations.
+My dotfiles for macOS managed with [Yet Another Dotfiles Manager (YADM)](https://thelocehiliosan.github.io/yadm/).
 
-These cofig dot files files are managed by YADM.
-https://yadm.io/docs/getting_started
+## On MacOS
 
-They are intended for use on OSX.
+Install git and yadm using brew:
 
-## Tools Used
+```
+$ brew install git yadm
+```
 
-### Hyper Terminal
-https://hyper.is/
+Clone repository
 
-### Oh My ZSH
-https://ohmyz.sh/
+```
+$ yadm clone https://github.com/RobWin/dotfiles.git
+```
+
+The boostrap file should take care of the rest.
+
+```
+$ yadm bootstrap
+```
