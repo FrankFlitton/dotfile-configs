@@ -1,0 +1,22 @@
+{
+    "editor.fontFamily": "FiraCode-Retina, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.enableSmartCommit": true,
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "prettier.vueIndentScriptAndStyle": true,
+    "vetur.validation.template": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "python.linting.enabled": false,
+    "workbench.settings.editor": "json"
+}
