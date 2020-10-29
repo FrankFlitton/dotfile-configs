@@ -128,7 +128,7 @@ export NVM_AUTO_USE=true
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 ###-tns-completion-start-###
-if [ -f /Users/franklinflitton/.tnsrc ]; then
-  source /Users/franklinflitton/.tnsrc
+if [ -f ~/.tnsrc ]; then
+  source ~/.tnsrc
 fi
 ###-tns-completion-end-###
