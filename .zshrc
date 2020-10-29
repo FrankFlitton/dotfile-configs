@@ -99,10 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 local ret_status="%(?:%{$fg_bold[green]%}∆ :%{$fg_bold[red]%}∆ )"
 PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
@@ -125,8 +121,6 @@ cheat.sh() {
     curl cheat.sh
   fi
 }
-
-# alias cheat.sh=' +'
 
 export PATH=~/development/flutter/bin:$PATH
 
