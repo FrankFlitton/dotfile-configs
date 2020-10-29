@@ -117,7 +117,16 @@ alias duck=fuck
 
 alias neo='neofetch --ascii /Users/franklinflitton/Pictures/robot --ascii_colors 1 7 2'
 
-alias cheat.sh='curl cheat.sh/ +'
+cheat.sh() {
+  git add .
+  if [ "$1" != "" ]; then
+    curl cheat.sh/"$1"
+  else
+    curl cheat.sh
+  fi
+}
+
+# alias cheat.sh=' +'
 
 export PATH=~/development/flutter/bin:$PATH
 
