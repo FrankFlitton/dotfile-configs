@@ -112,20 +112,21 @@ eval "$(pyenv init -)"
 eval "$(thefuck --alias)"
 
 alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+
 alias duck=fuck
 
 alias neo='neofetch --ascii /Users/franklinflitton/Pictures/robot --ascii_colors 1 7 2'
 
+alias cheat.sh='curl cheat.sh/ +'
 
 export PATH=~/development/flutter/bin:$PATH
 
-
 export NVM_LAZY_LOAD=true
 export NVM_AUTO_USE=true
-[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 ###-tns-completion-start-###
 if [ -f /Users/franklinflitton/.tnsrc ]; then
-    source /Users/franklinflitton/.tnsrc
+  source /Users/franklinflitton/.tnsrc
 fi
 ###-tns-completion-end-###
