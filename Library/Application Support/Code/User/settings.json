@@ -18,5 +18,8 @@
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "python.linting.enabled": false,
-    "workbench.settings.editor": "json"
+    "workbench.settings.editor": "json",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
 }
