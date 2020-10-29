@@ -114,7 +114,6 @@ alias duck=fuck
 alias neo='neofetch --ascii /Users/franklinflitton/Pictures/robot --ascii_colors 1 7 2'
 
 cheat.sh() {
-  git add .
   if [ "$1" != "" ]; then
     curl cheat.sh/"$1"
   else
