@@ -12,7 +12,7 @@ $ brew install git yadm
 Clone repository
 
 ```
-$ yadm clone https://github.com/RobWin/dotfiles.git
+$ yadm clone https://github.com/FrankFlitton/dotfile-configs.git
 ```
 
 The boostrap file should take care of the rest.
