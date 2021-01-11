@@ -3,6 +3,7 @@ tap 'caskroom/cask'
 
 # Core Homebrew
 brew 'autoconf'
+brew 'cmus'
 brew 'cocoapods'
 brew 'docbook'
 brew 'docbook-xsl'
